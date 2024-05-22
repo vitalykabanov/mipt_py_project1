@@ -31,4 +31,4 @@ class KeyboardInterface:
 
     def grey(self, char: str):
         key_info_grey = kl.KeyInfo(**self.key_info_dict, color="grey")
-        self.keyboard_layout.update_key(key=KeyboardInterface.KeyboardMap(char), key_info=key_info_grey
+        self.keyboard_layout.update_key(key=KeyboardInterface.KeyboardMap(char), key_info=key_info_grey)
